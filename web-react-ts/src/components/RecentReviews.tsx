@@ -45,7 +45,7 @@ export default function RecentReviews() {
         <TableBody>
           {data.reviews.map((row: any) => (
             <TableRow key={row.id}>
-              <TableCell>{moment(row.date).format('MMMM Do YYYY')}</TableCell>
+              <TableCell></TableCell>
               <TableCell>{row.business.name}</TableCell>
               <TableCell>{row.user.name}</TableCell>
               <TableCell>{row.text}</TableCell>
